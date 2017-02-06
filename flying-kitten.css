@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #f6f6f6;
+}
+
+h1 {
+    padding: 0.5em;
+    color: #fff;
+    background-color: #0099ff;
+    margin-bottom: 0.5em;
+}
+
+.image {
+    width: 30%;
+    padding-right: 0.5em;
+}
+
+.main-section p {
+    width: 70%;
+}
+
+/*
+This is called a "utility class". We can apply it on any image to make it comply to the
+width of its parent.
+*/
+.responsive-img {
+    max-width: 100%;
+}
+
+.social-icons, .main-section{
+    display: flex;
+}
+
+.main-section {
+    margin-bottom: 0.5em;
+}
+
+
+
+footer {
+    text-align: center;
+}
+
+ul.social-icons {
+    list-style: none;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 0.3em;
+    background-color: black;
+    color: white;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
