@@ -1,0 +1,82 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*=================================BANNER=====================================*/
+.green-box {
+    background-color: hsl(153, 100%, 40%);
+}
+
+.banner {
+    height: 322px;
+    background-image: url("notify_background_header.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.banner-text {
+    padding-left: 1em;
+    width: 30%;
+    color: hsl(153, 13%, 98%); /*creamy white?*/
+    position: relative;
+    left: 200px;
+    top: 40px;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+ul.thumbnails {
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+.thumbnails a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.thumbnails li {
+    font-size: 1.2em;
+    margin: 0 0.3em;
+    opacity: 0.5;
+    background-color: hsl(153, 13%, 4%);
+    color: white;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.thumbnails li:hover {
+    opacity: 1;
+    background-color: hsl(153, 100%, 40%);
+}
+
+/*=================================FEATURES===================================*/
+
+
+/*=================================UPDATES====================================*/
+
+
+/*=================================TESTIMONIAL================================*/
+
+
+/*=================================FOOTER=====================================*/
+
