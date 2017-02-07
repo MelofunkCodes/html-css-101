@@ -9,16 +9,19 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5em;
 }
 
+
 /*=================================BANNER=====================================*/
+
 .green-box {
     background-color: hsl(153, 100%, 40%);
 }
 
 .banner {
-    height: 322px;
+    height: 450px;
     background-image: url("notify_background_header.jpg");
     background-size: cover;
     display: flex;
@@ -28,15 +31,17 @@ body {
 .banner-text {
     padding-left: 1em;
     width: 30%;
-    color: hsl(153, 13%, 98%); /*creamy white?*/
+    color: hsl(153, 13%, 98%);
+    /*creamy white?*/
     position: relative;
     left: 200px;
     top: 40px;
-
 }
 
 h1 {
     margin: 0;
+    font-family: Pacifico, sans-serif;
+    font-weight: 100;
 }
 
 ul.thumbnails {
@@ -69,14 +74,209 @@ ul.thumbnails {
     background-color: hsl(153, 100%, 40%);
 }
 
+
 /*=================================FEATURES===================================*/
+
+.icon {
+    margin: 0 auto;
+    background-color: hsl(153, 100%, 40%);
+    color: white;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 2em;
+}
+
+.features {
+    background-color: #fff;
+    max-width: 100%;
+}
+
+ul.features-container {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 967px;
+    margin: 0 auto;
+}
+
+.features li {
+    margin: 2em 0.5em;
+    text-align: center;
+    flex-flow: column;
+    width: 30%;
+}
+
+.features p {
+    color: #4D4E5C;
+    font-size: 0.9em;
+}
 
 
 /*=================================UPDATES====================================*/
 
+.updates {
+    /*Grey background*/
+    background-color: hsl(251, 10%, 86%);
+    max-width: 100%;
+}
+
+
+/*This box holds the 2 boxes updates-text and video*/
+
+.updates-container {
+    max-width: 967px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.updates-container>div {
+    width: 50%;
+    padding: 2em 1em;
+}
+
+h2 {
+    margin: 0.8em 0 0.42em 0;
+}
+
+.updates-text p {
+    color: #4D4E5C;
+    font-size: 0.9em;
+}
+
+.user-input input {
+    border-radius: 5px 0 0 5px;
+    border: 2px solid #fff;
+    padding: 10px;
+}
+
+.user-input button {
+    border-radius: 0 5px 5px 0;
+    background-color: hsl(153, 100%, 40%);
+    color: hsl(153, 13%, 98%);
+    /*creamy white?*/
+    border: 2px solid hsl(153, 100%, 40%);
+    padding: 10px;
+}
+
+iframe {
+    width: 400px;
+    height: 225px;
+    border-radius: 5%;
+}
+
 
 /*=================================TESTIMONIAL================================*/
+
+.testimonial {
+    background-color: #fff;
+}
+
+.testimonial-container {
+    max-width: 967px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonial-container p {
+    color: #4D4E5C;
+}
+
+#testi-quote {
+    font-style: italic;
+    color: #4D4E5C;
+}
+
+.testimonial-container h3 {
+    font-weight: 800;
+}
+
+.people-pics {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: 790px;
+    margin: 0 auto;
+}
+
+.people-pics img {
+    width: 36px;
+    height: 36px;
+    margin: 0 0.1em;
+}
+
+.left-pic {
+    position: absolute;
+    width: 25px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.right-pic {
+    position: absolute;
+    width: 25px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+
+.people-pics img:hover {
+    opacity: 0.9;
+    background-color: hsl(153, 100%, 40%);
+}
+
+.tiny-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.tiny-icons li {
+    margin: 0 0.3em;
+    background-color: hsl(251, 10%, 86%);
+    color: white;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.tiny-icons li:hover {
+    opacity: 1;
+    background-color: hsl(153, 100%, 40%);
+}
 
 
 /*=================================FOOTER=====================================*/
 
+footer {
+    background-color: hsl(251, 10%, 86%);
+    margin: 0;
+    height: 75px;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 35px;
+}
+
+.footer-nav li {
+    color: #4D4E5C;
+    /*grey*/
+    font-size: 0.9em;
+    margin: 0 20px;
+}
